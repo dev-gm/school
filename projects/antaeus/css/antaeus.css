@@ -1,0 +1,143 @@
+/*All*/
+
+html {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("img/dark-background.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/*Reusable Components*/
+
+h1 {
+    font-weight: 100;
+    font-size: 900%;
+}
+
+a {
+    font-weight: 300;
+    font-size: 250%;
+    background-color: #792323;
+    text-decoration: none;
+    color: white;
+}
+
+h3 {
+    font-weight: 300;
+    display: block;
+}
+
+h4 {
+    font-weight: 400;
+}
+
+.box {
+    text-align: center;
+    height: 100vh;
+}
+
+/*Navigation*/
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav a {
+    font-weight: 300;
+    text-align: center;
+    text-decoration: none;
+    width: 60px;
+    padding: 20px 20px 10px 10px;
+    padding-top: 10px;
+    margin-left: 2vw;
+    font-size: 25px;
+    color: white;
+    background-color: #691717;
+    transition: background-color 0.2s;
+}
+
+.nav a:hover {
+    background-color: #ba5353;
+}
+
+.nav a:active {
+    background-color: #570000;
+}
+
+.nav li {
+    float: left;
+}
+
+.nav {
+    position: fixed;
+    bottom: 89vh;
+}
+
+#back {
+    margin-right: 8vw;
+    background-color: #171d69;
+}
+
+#back:hover {
+    background-color: #535fba; 
+}
+
+#back:active {
+    background-color: #070057;
+}
+
+/*Pages*/
+
+#title-page {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("img/dark-background.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-top: none;
+}
+
+#essay-page {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("img/dark-background.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#allusion-page {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("img/dark-background.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#symbol-page {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("img/dark-background.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#character-page {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("img/dark-background.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/*Page components*/
+
+#title {
+    padding-top: 10vh;
+}
+
+#essay {
+    width: 80%;
+    margin-left: 10%;
+    font-size: 130%;
+}
